@@ -1,5 +1,6 @@
 body{
-    background-color: blueviolet;
+    background-color: black;
+    height: 50%;
 }
 .container {
     display: flex;
@@ -7,14 +8,19 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: blue;
+    
   }
   
   #topic {
-    margin-bottom: 20px;
+    margin-bottom: 360px;
+
+    text-align: center;
   }
   
   #back {
     display: flex;
+    margin-top: -200px;
   }
   
   .movies {
@@ -67,3 +73,7 @@ body{
   #movie-poster{
     width: 300px;
   }
+  .S{
+    color: brown;
+  }
+  
